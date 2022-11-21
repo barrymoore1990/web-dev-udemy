@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>2 HTML Forms</title>
+</head>
+<body>
+    <h1>2 - HTML Forms</h1>
+    <h2>Notes:</h2>
+    <h3>Structure</h3>
+    <ul>
+        <li>Won't see their full functionality until we get to JS</li>
+        <li>Label for the text above a cell</li>
+        <li>Input for the form cell</li>
+        <li>Submit button is also an input type (huge number of different input types)</li>
+        <li>Input self-closing tag, where as label is opening & closing</li>
+        <li>Textarea for big text input like your message - rows show how high and columns how wide the text area should be</li>
+        <li>Form action is what should happen when you click submit</li>
+        <li>enc type is encoding type of data - text/plain means just plain text</li>
+        <li>Giving a name to each attribute helps identify the data</li>
+    </ul>
+    <form action="mailto:hello@touringhighlights.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="">
+    </form>
+    <h2>Keywords/Questions:</h2>
+    <ul>
+        <li>form action is what happens after click</li>
+        <li>Labels and input key parts</li>
+    </ul>
+    <h2>Summary:</h2>
+    <p>Won't see full functionality until JS. Can process user inputs and do things with that data</p>
+</body>
+</html>

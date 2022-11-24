@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>2 - Debugging & Syntax</title>
+</head>
+<body>
+    <h1>2 - Debugging & Syntax</h1>
+    <h2>Notes:</h2>
+    <h3>Debugging</h3>
+    <ul>
+        <li>Use chrome developer tools, console see if any issues</li>
+        <li>In elements, look at styles for the part you're looking at to see what's affecting it</li>
+        <li>Priority order - inline, internal then external</li>
+    </ul>
+    <h3>Anatomy of CSS Syntax</h3>
+    <ul>
+        <li>Syntax is grammar</li>
+        <li>Selector {property: value;}</li>
+        <li>Selector is the who - what you want to style. Property is the what - what do you want to style. Value is how you want to change it</li>
+        <li>Each property: value pair should be on their own line & in alphabetical order</li>
+        <li>MDN docs have index of all properties you can change</li>
+    </ul>
+    <h3>CSS Selectors</h3>
+    <ul>
+        <li>Add class to HTML elements e.g. img class="classattribute"</li>
+        <li>Comments are /* enter comment */</li>
+        <li>Break into sections on styles.css? Tag selectors at top then class selectors under</li>
+        <li>Don't need to use tag, just class </li>
+        <li>In style.css put . before class e.g. .bacon</li>
+        <li>Can use class many times</li>
+        <li>Any HTML element can have more than 1 class - class="bacon broccoli"</li>
+        <li>Used often and more than just e.g. h1</li>
+    </ul>
+    <h3>ID Selectors</h3>
+    <ul>
+        <li>Put ID selector section on styles.css under class selectors</li>
+        <li>Put # instead of . e.g. #bacon</li>
+        <li>Can only do one ID tag per page</li>
+        <li>HTML elements can only have 1 ID</li>
+        <li>Not used too often</li>
+        <li>Highest specificity</li>
+    </ul>
+    <h3>Pseudo Class</h3>
+    <ul>
+        <li>Some css classes are psuedo - they're different if you e.g. hover over the element</li>
+        <li>Hover most common</li>
+        <li>To use, you'd put after selector. e.g. img:hover</li>
+    </ul>
+    <h2>Keywords/Questions:</h2>
+    <ul>
+        <li>Chrome developer tools to find errors</li>
+        <li>Priority order - inline, internal, external. ID, class, tag</li>
+        <li>Syntax is grammar</li>
+        <li>class is . and id is #</li>
+        <li>Class is many, id is once</li>
+    </ul>
+    <h2>Summary:</h2>
+    <p>Use chrome developer tools to find errors </p>
+</body>
+</html>

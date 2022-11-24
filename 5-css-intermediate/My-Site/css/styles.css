@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #e4f9f5;
+}
+
+h1,
+h2 {
+    color: #66BFBF;
+    text-align: center;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 40px;
+    right: 400px;
+}
